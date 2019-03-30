@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name final_project)(type Legacy)(uri ${KIPRJMOD}/final_project.lib)(options "")(descr ""))
+  (lib (name micro_sd_card_det)(type Legacy)(uri ${KIPRJMOD}/micro_sd_card_det.lib)(options "")(descr ""))
+  (lib (name nRF52810)(type Legacy)(uri "C:/Users/Ahad Rauf/Desktop/School/EE 198/ee198_final_project/nRF52810.lib")(options "")(descr ""))
+  (lib (name bl651)(type Legacy)(uri "C:/Users/Ahad Rauf/Desktop/School/EE 198/ee198_final_project/bl651.lib")(options "")(descr ""))
+  (lib (name usb_b_micro)(type Legacy)(uri "C:/Users/Ahad Rauf/Desktop/School/EE 198/ee198_final_project/usb_b_micro.lib")(options "")(descr ""))
+  (lib (name ADP2360)(type Legacy)(uri "C:/Users/Ahad Rauf/Desktop/School/EE 198/ee198_final_project/ADP2360.lib")(options "")(descr ""))
+)
