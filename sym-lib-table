@@ -5,4 +5,5 @@
   (lib (name bl651)(type Legacy)(uri "C:/Users/Ahad Rauf/Desktop/School/EE 198/ee198_final_project/bl651.lib")(options "")(descr ""))
   (lib (name usb_b_micro)(type Legacy)(uri "C:/Users/Ahad Rauf/Desktop/School/EE 198/ee198_final_project/usb_b_micro.lib")(options "")(descr ""))
   (lib (name ADP2360)(type Legacy)(uri "C:/Users/Ahad Rauf/Desktop/School/EE 198/ee198_final_project/ADP2360.lib")(options "")(descr ""))
+  (lib (name cc2564)(type Legacy)(uri ${KIPRJMOD}/cc2564.lib)(options "")(descr ""))
 )

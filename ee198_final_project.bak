@@ -38,12 +38,12 @@ Wire Wire Line
 $Comp
 L micro_sd_card_det:Micro_SD_Card_Det J2
 U 1 1 5C9C5FB1
-P 2600 4050
-F 0 "J2" H 2550 4867 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 2550 4776 50  0000 C CNN
-F 2 "ee198_final_project:Molex_08-1051620001" H 4650 4750 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 2600 4150 50  0001 C CNN
-	1    2600 4050
+P 2250 4350
+F 0 "J2" H 2200 5167 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 2200 5076 50  0000 C CNN
+F 2 "ee198_final_project:Molex_08-1051620001" H 4300 5050 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 2250 4450 50  0001 C CNN
+	1    2250 4350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -60,95 +60,68 @@ $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5C9CD1F7
-P 1800 4550
-F 0 "#PWR0102" H 1800 4300 50  0001 C CNN
-F 1 "GND" H 1805 4377 50  0000 C CNN
-F 2 "" H 1800 4550 50  0001 C CNN
-F 3 "" H 1800 4550 50  0001 C CNN
-	1    1800 4550
+P 1450 4850
+F 0 "#PWR0102" H 1450 4600 50  0001 C CNN
+F 1 "GND" H 1455 4677 50  0000 C CNN
+F 2 "" H 1450 4850 50  0001 C CNN
+F 3 "" H 1450 4850 50  0001 C CNN
+	1    1450 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L bl651:BL651 U1
-U 1 1 5C9CDF99
-P 7600 3800
-F 0 "U1" H 7600 5078 50  0000 C CNN
-F 1 "BL652" H 7600 4987 50  0000 C CNN
-F 2 "ee198_final_project:Laird_BL651" H 7600 2600 50  0001 C CNN
-F 3 "http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf" H 7600 2500 50  0001 C CNN
-	1    7600 3800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 4800 7500 4800
-Wire Wire Line
-	7500 4800 7550 4800
-Connection ~ 7500 4800
-Wire Wire Line
-	7600 4800 7700 4800
-Connection ~ 7600 4800
 $Comp
 L power:GND #PWR0103
 U 1 1 5C9CEA41
-P 7550 4800
-F 0 "#PWR0103" H 7550 4550 50  0001 C CNN
-F 1 "GND" H 7555 4627 50  0000 C CNN
-F 2 "" H 7550 4800 50  0001 C CNN
-F 3 "" H 7550 4800 50  0001 C CNN
-	1    7550 4800
+P 5400 5250
+F 0 "#PWR0103" H 5400 5000 50  0001 C CNN
+F 1 "GND" H 5405 5077 50  0000 C CNN
+F 2 "" H 5400 5250 50  0001 C CNN
+F 3 "" H 5400 5250 50  0001 C CNN
+	1    5400 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 7550 4800
+Connection ~ 5400 5250
 Wire Wire Line
-	7550 4800 7600 4800
+	3150 4250 3600 4250
 Wire Wire Line
-	3500 4050 5000 4050
-Wire Wire Line
-	5000 4050 5000 3900
-Wire Wire Line
-	5000 3900 5300 3900
-Wire Wire Line
-	3500 3950 3950 3950
-Wire Wire Line
-	3500 4250 3750 4250
-Text Label 3600 3850 0    50   ~ 0
+	3150 4550 3400 4550
+Text Label 3250 4150 0    50   ~ 0
 MOSI
-Text Label 3600 4250 0    50   ~ 0
+Text Label 3250 4550 0    50   ~ 0
 MISO
 Wire Wire Line
-	6600 4000 6300 4000
+	4450 4450 4150 4450
 Wire Wire Line
-	6600 4100 6300 4100
-Text Label 6350 4000 0    50   ~ 0
+	4450 4550 4150 4550
+Text Label 4200 4450 0    50   ~ 0
 MISO
-Text Label 6350 4100 0    50   ~ 0
+Text Label 4200 4550 0    50   ~ 0
 MOSI
-Text Label 3600 3950 0    50   ~ 0
+Text Label 3250 4250 0    50   ~ 0
 3.3V
 Wire Wire Line
-	7600 2700 7900 2700
-Text Label 7800 2700 0    50   ~ 0
+	5450 3150 5750 3150
+Text Label 5650 3150 0    50   ~ 0
 3.3V
 Wire Wire Line
-	3500 4150 3950 4150
+	3150 4450 3600 4450
 $Comp
 L power:GND #PWR0104
 U 1 1 5C9CF723
-P 3950 4150
-F 0 "#PWR0104" H 3950 3900 50  0001 C CNN
-F 1 "GND" H 3955 3977 50  0000 C CNN
-F 2 "" H 3950 4150 50  0001 C CNN
-F 3 "" H 3950 4150 50  0001 C CNN
-	1    3950 4150
+P 3600 4450
+F 0 "#PWR0104" H 3600 4200 50  0001 C CNN
+F 1 "GND" H 3605 4277 50  0000 C CNN
+F 2 "" H 3600 4450 50  0001 C CNN
+F 3 "" H 3600 4450 50  0001 C CNN
+	1    3600 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 3750 3750 3750
+	3150 4050 3400 4050
 Wire Wire Line
-	6600 4200 6300 4200
-Text Label 3600 3750 0    50   ~ 0
+	4450 4650 4150 4650
+Text Label 3250 4050 0    50   ~ 0
 CS
-Text Label 6350 4200 0    50   ~ 0
+Text Label 4200 4650 0    50   ~ 0
 CS
 $Comp
 L ADP2360:ADP2360 U2
@@ -287,8 +260,6 @@ F 3 "~" H 2650 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2650 2250
-Wire Wire Line
-	2650 2250 2750 2250
 $Comp
 L power:GND #PWR01
 U 1 1 5C9DEA3D
@@ -310,8 +281,6 @@ Wire Wire Line
 Connection ~ 2050 3050
 Wire Wire Line
 	2050 3050 2050 2850
-Text Label 2300 3050 0    50   ~ 0
-CS
 Text Label 2500 2250 0    50   ~ 0
 5V
 Text Label 3300 2450 0    50   ~ 0
@@ -355,7 +324,7 @@ Wire Wire Line
 	6750 1850 7050 1850
 Text Label 6850 1850 0    50   ~ 0
 PGOOD
-Text Label 3600 4050 0    50   ~ 0
+Text Label 3250 4350 0    50   ~ 0
 SCLK
 Text Label 3450 2700 0    50   ~ 0
 SS
@@ -366,57 +335,53 @@ FB
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5C9EF116
-P 2750 2250
-F 0 "TP2" H 2808 2370 50  0000 L CNN
-F 1 "TestPoint" H 2808 2279 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2950 2250 50  0001 C CNN
-F 3 "~" H 2950 2250 50  0001 C CNN
-	1    2750 2250
-	1    0    0    -1  
+P 3150 2450
+F 0 "TP2" V 3345 2524 50  0000 C CNN
+F 1 "TestPoint" V 3254 2524 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3350 2450 50  0001 C CNN
+F 3 "~" H 3350 2450 50  0001 C CNN
+	1    3150 2450
+	0    -1   -1   0   
 $EndComp
-Connection ~ 2750 2250
-Wire Wire Line
-	2750 2250 2900 2250
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5C9EF1CC
-P 5300 3900
-F 0 "TP6" H 5358 4020 50  0000 L CNN
-F 1 "TestPoint" H 5358 3929 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5500 3900 50  0001 C CNN
-F 3 "~" H 5500 3900 50  0001 C CNN
-	1    5300 3900
+P 4050 4350
+F 0 "TP6" H 4108 4470 50  0000 L CNN
+F 1 "TestPoint" H 4108 4379 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4250 4350 50  0001 C CNN
+F 3 "~" H 4250 4350 50  0001 C CNN
+	1    4050 4350
 	1    0    0    -1  
 $EndComp
-Connection ~ 5300 3900
 Wire Wire Line
-	5300 3900 6600 3900
+	3150 4350 4050 4350
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5C9F0DDD
-P 3950 3850
-F 0 "TP4" H 4008 3970 50  0000 L CNN
-F 1 "TestPoint" H 4008 3879 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4150 3850 50  0001 C CNN
-F 3 "~" H 4150 3850 50  0001 C CNN
-	1    3950 3850
+P 3600 4150
+F 0 "TP4" H 3658 4270 50  0000 L CNN
+F 1 "TestPoint" H 3658 4179 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3800 4150 50  0001 C CNN
+F 3 "~" H 3800 4150 50  0001 C CNN
+	1    3600 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5C9F0E2B
-P 3750 4400
-F 0 "TP3" V 3704 4588 50  0000 L CNN
-F 1 "TestPoint" V 3795 4588 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3950 4400 50  0001 C CNN
-F 3 "~" H 3950 4400 50  0001 C CNN
-	1    3750 4400
+P 3400 4700
+F 0 "TP3" V 3354 4888 50  0000 L CNN
+F 1 "TestPoint" V 3445 4888 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3600 4700 50  0001 C CNN
+F 3 "~" H 3600 4700 50  0001 C CNN
+	1    3400 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3750 4250 3750 4400
+	3400 4550 3400 4700
 Wire Wire Line
-	3500 3850 3950 3850
+	3150 4150 3600 4150
 Wire Wire Line
 	5150 2250 5400 2250
 Wire Wire Line
@@ -449,4 +414,167 @@ $EndComp
 Connection ~ 5400 2250
 Wire Wire Line
 	5400 2250 5550 2250
+Connection ~ 3150 2450
+Wire Wire Line
+	2650 2250 2900 2250
+Connection ~ 4050 4350
+Wire Wire Line
+	4050 4350 4450 4350
+NoConn ~ 5650 3300
+Wire Wire Line
+	5350 5250 5400 5250
+Wire Wire Line
+	5250 5250 5350 5250
+Connection ~ 5350 5250
+Wire Wire Line
+	5400 5250 5450 5250
+Wire Wire Line
+	5450 5250 5550 5250
+Connection ~ 5450 5250
+$Comp
+L bl651:BL651 U1
+U 1 1 5C9CDF99
+P 5450 4250
+F 0 "U1" H 5450 5528 50  0000 C CNN
+F 1 "BL652" H 5450 5437 50  0000 C CNN
+F 2 "ee198_final_project:Laird_BL651" H 5450 3050 50  0001 C CNN
+F 3 "http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf" H 5450 2950 50  0001 C CNN
+	1    5450 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3100 1400 3400
+Wire Wire Line
+	1200 3100 1200 3400
+Text Label 1400 3250 0    50   ~ 0
+VIO
+Text Label 1300 3300 0    50   ~ 0
+GND
+Text Label 1200 3150 0    50   ~ 0
+SWDIO
+Text Label 1100 3300 0    50   ~ 0
+SWDCLK
+Wire Wire Line
+	1100 3100 1100 3400
+Text Label 1000 3200 0    50   ~ 0
+nRESET
+Text Label 900  3350 0    50   ~ 0
+P18
+Wire Wire Line
+	1000 3100 1000 3400
+Wire Wire Line
+	900  3100 900  3400
+Wire Wire Line
+	4450 3350 4200 3350
+Wire Wire Line
+	4450 3450 4200 3450
+Wire Wire Line
+	6450 4050 6700 4050
+$Comp
+L power:GND #PWR0106
+U 1 1 5CAB807C
+P 1300 3450
+F 0 "#PWR0106" H 1300 3200 50  0001 C CNN
+F 1 "GND" H 1305 3277 50  0000 C CNN
+F 2 "" H 1300 3450 50  0001 C CNN
+F 3 "" H 1300 3450 50  0001 C CNN
+	1    1300 3450
+	1    0    0    -1  
+$EndComp
+Text Label 4250 3350 0    50   ~ 0
+SWDCLK
+Text Label 4200 4750 0    50   ~ 0
+nRESET
+Wire Wire Line
+	4150 4750 4450 4750
+Text Label 6550 4050 0    50   ~ 0
+P18
+Text Label 4250 3450 0    50   ~ 0
+SWDIO
+$Comp
+L Device:C_Small CSS2
+U 1 1 5CABA203
+P 1500 3450
+F 0 "CSS2" H 1592 3496 50  0000 L CNN
+F 1 "10u" H 1592 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1500 3450 50  0001 C CNN
+F 3 "~" H 1500 3450 50  0001 C CNN
+	1    1500 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3400 1600 3400
+Wire Wire Line
+	1600 3400 1600 3450
+Wire Wire Line
+	1400 3450 1300 3450
+Wire Wire Line
+	1300 3100 1300 3450
+Connection ~ 1300 3450
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5CABEAD3
+P 1400 2900
+F 0 "J?" H 1506 3078 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 1506 2987 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1400 2900 50  0001 C CNN
+F 3 "~" H 1400 2900 50  0001 C CNN
+	1    1400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5CABEB1D
+P 1300 2900
+F 0 "J?" H 1406 3078 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 1406 2987 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1300 2900 50  0001 C CNN
+F 3 "~" H 1300 2900 50  0001 C CNN
+	1    1300 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5CABEB55
+P 1200 2900
+F 0 "J?" H 1306 3078 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 1306 2987 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1200 2900 50  0001 C CNN
+F 3 "~" H 1200 2900 50  0001 C CNN
+	1    1200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5CABEB8F
+P 1100 2900
+F 0 "J?" H 1206 3078 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 1206 2987 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1100 2900 50  0001 C CNN
+F 3 "~" H 1100 2900 50  0001 C CNN
+	1    1100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5CABEBCB
+P 1000 2900
+F 0 "J?" H 1106 3078 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 1106 2987 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1000 2900 50  0001 C CNN
+F 3 "~" H 1000 2900 50  0001 C CNN
+	1    1000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5CABEC09
+P 900 2900
+F 0 "J?" H 1006 3078 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 1006 2987 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 900 2900 50  0001 C CNN
+F 3 "~" H 900 2900 50  0001 C CNN
+	1    900  2900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
